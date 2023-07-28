@@ -1,0 +1,7 @@
+Ziv Attias's bill breakdown: 
+React:   ... $1024.00 
+AWS:     ... $0.00 
+Node.js: ... $99.00 
+Golang:  ... $41.00 
+tip:     ... $54.45 
+total:   ... $1218.45
