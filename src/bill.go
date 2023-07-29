@@ -52,7 +52,7 @@ func (b *bill) addItem(name string, price float64) {
 func (b *bill) save() {
 	data := []byte(b.format())
 	fileName := fmt.Sprintf("%v-%v.txt", strings.ReplaceAll(b.name, " ", "-"), time.Now().Unix())
-	filePath := fmt.Sprintf("bills/%v.txt", fileName)
+	filePath := fmt.Sprintf("bills/%v", fileName)
 
 	err := os.WriteFile(filePath, data, 0644)
 	if err != nil {
